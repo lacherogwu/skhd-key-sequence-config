@@ -6,6 +6,12 @@ const config = defineConfig({
 		key: 'r',
 		shortcuts: {
 			p: open('raycast://extensions/raycast/raycast/confetti'),
+		},
+	},
+	discord: {
+		modifiers: ['hyper'],
+		key: 'd',
+		shortcuts: {
 			s: open('raycast://extensions/lachero/discord-soundboard/open-soundboard'),
 		},
 	},
