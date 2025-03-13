@@ -1,4 +1,4 @@
-import { defineConfig, open } from 'skhd-key-sequence';
+import { app, defineConfig, open } from 'skhd-key-sequence';
 
 const config = defineConfig({
 	raycast: {
@@ -20,6 +20,13 @@ const config = defineConfig({
 		key: 'f',
 		shortcuts: {
 			d: open('~/Downloads'),
+		},
+	},
+	apps: {
+		modifiers: ['hyper'],
+		key: 'o',
+		shortcuts: {
+			w: app('WireGuard'),
 		},
 	},
 });
