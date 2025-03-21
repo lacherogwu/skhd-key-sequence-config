@@ -20,6 +20,7 @@ const config = defineConfig({
 		key: 'f',
 		shortcuts: {
 			d: open('~/Downloads'),
+			p: open('~/LocalDocuments/Projects'),
 		},
 	},
 	apps: {
