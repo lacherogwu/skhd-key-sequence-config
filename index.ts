@@ -29,6 +29,13 @@ const config = defineConfig({
 			w: app('WireGuard'),
 		},
 	},
+	system: {
+		modifiers: ['hyper'],
+		key: 's',
+		shortcuts: {
+			m: open('raycast://script-commands/toggle-system-microphone-mute'),
+		},
+	},
 });
 
 await config.save();
