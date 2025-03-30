@@ -21,6 +21,7 @@ const config = defineConfig({
 		shortcuts: {
 			d: open('~/Downloads'),
 			p: open('~/LocalDocuments/Projects'),
+			l: open('~/LocalDocuments'),
 		},
 	},
 	apps: {
@@ -28,6 +29,7 @@ const config = defineConfig({
 		key: 'o',
 		shortcuts: {
 			w: app('WireGuard'),
+			t: app('TablePlus'),
 		},
 	},
 	system: {
