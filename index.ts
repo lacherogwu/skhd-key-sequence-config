@@ -6,6 +6,7 @@ const config = defineConfig({
 		key: 'r',
 		shortcuts: {
 			p: open('raycast://extensions/raycast/raycast/confetti'),
+			n: open('raycast://extensions/raycast/raycast-notes/raycast-notes'),
 		},
 	},
 	discord: {
